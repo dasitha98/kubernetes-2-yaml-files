@@ -16,4 +16,4 @@ spec:
         - name: testpass
           image: vmprojectthree.azurecr.io/testapp2
           ports:
-          - containerPort: 8081
+          - containerPort: 8000
