@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-    name: helloapp
+    name: testpass
 spec:
     type: LoadBalancer
     ports:
-    - port: 8000
+    - port: 8081
     selector:
-        app: helloapp
+        app: testpass
