@@ -1,19 +1,19 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: helloapp
+  name: testpass
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: helloapp
+      app: testpass
   template:
     metadata:
       labels:
-        app: helloapp
+        app: testpass
     spec:
       containers:
-        - name: helloapp
-          image: vmprojecttwo.azurecr.io/testapp2
+        - name: testpass
+          image: vmprojectthree.azurecr.io/testapp2
           ports:
-          - containerPort: 8000
+          - containerPort: 8081
