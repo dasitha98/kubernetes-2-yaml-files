@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: helloapp
-          image: containersjshold.azurecr.io/apptest2
+          image: vmcon.azurecr.io/apptest2
           ports:
           - containerPort: 8000
